@@ -1,0 +1,19 @@
+/* Base menu item styling to match helpButton look */
+.szh-menu__item {
+  color: #23523c;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin: 4px;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect (same as help button) */
+/* .szh-menu__item:hover {
+  background-color: #d8ebe4;
+} */
+
+/* .szh-menu--state-open {
+  background-color: #d8ebe4;
+} */

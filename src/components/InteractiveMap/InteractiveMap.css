@@ -1,0 +1,24 @@
+.custom-marker .marker-circle {
+  width: 16px;
+  height: 16px;
+  background-color: #1e90ff;
+  border-radius: 50%;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.selected-marker .marker-circle {
+  transform: scale(1.8);
+  background-color: #ff5733;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.custom-marker .marker-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.selected-marker .marker-icon {
+  transform: scale(1.8);
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.5));
+}

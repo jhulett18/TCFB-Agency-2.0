@@ -1,0 +1,102 @@
+/* Root container for the list */
+.agency-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card container */
+.agency-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.agency-card.active {
+  background-color: #e8f4ff; /* light blue */
+  border-left: 4px solid #1e90ff;
+  box-shadow: 0 0 8px rgba(30, 144, 255, 0.3);
+}
+
+/* Top-level name button */
+.agency-card__title-button {
+  all: unset;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.agency-card__name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.agency-card__distance {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #666;
+  margin-left: 0.5rem;
+}
+
+/* Shared label */
+.agency-card__label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+/* Shared paragraph/text styling */
+.agency-card__text {
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0.75rem 0;
+  color: #444;
+  white-space: pre-line;
+}
+
+/* Section spacing */
+.agency-card__section {
+  margin-bottom: 0.75rem;
+}
+
+/* Directions link */
+.agency-card__directions-link {
+  font-size: 0.9rem;
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+/* Programs section */
+.agency-card__programs {
+  display: flex;
+  flex-direction: column;
+}
+
+.agency-card__program-list {
+  list-style: none;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.agency-card__program-item {
+  background-color: #e6f2e6;
+  color: #317032;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  text-transform: capitalize;
+}

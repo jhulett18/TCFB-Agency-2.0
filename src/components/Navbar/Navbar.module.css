@@ -1,0 +1,57 @@
+.navbarRoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 0 1.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  z-index: 1000;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 42px;
+  width: auto;
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.slogan_text {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+.slogan_text_primary_color {
+  color: #db9d1e;
+}
+
+.slogan_text_secondary_color {
+  color: #0a5627;
+}
+
+.helpButton {
+  background-color: #ebf4f1;
+  color: #23523c;
+  border: 1px solid #c1dad2;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.helpButton:hover {
+  background-color: #d8ebe4;
+}

@@ -1,0 +1,140 @@
+/* === Sidebar Container === */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  background-color: #f7f7f7;
+  border-right: 1px solid #ddd;
+  padding-top: 1rem;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* === Sidebar Filter Group Headers === */
+.filterGroup {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* === Pro Sidebar Menu Items === */
+.ps-menuitem-root {
+  font-size: 0.9rem;
+  color: #333;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  flex: 1 1 45%; /* 2 per row */
+  transition: background-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.ps-menuitem-root:hover {
+  background-color: #e0f0e8 !important;
+}
+
+/* === Submenu Content Layout (Filters) === */
+.ps-submenu-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+}
+
+/* === Scrollable Agency List Section === */
+.agency-scroll-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: 100%;
+  padding: 0 1rem 1rem 1rem;
+  box-sizing: border-box;
+}
+
+/* === Agency Card List === */
+.agency-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Individual Agency Card === */
+.agency-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.agency-card__title-button {
+  all: unset;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.agency-card__name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.agency-card__distance {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #666;
+  margin-left: 0.5rem;
+}
+
+/* === Card Sections === */
+.agency-card__section {
+  margin-bottom: 0.75rem;
+}
+
+.agency-card__label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.agency-card__text {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0.25rem 0 0.75rem;
+  white-space: pre-line;
+}
+
+.agency-card__directions-link {
+  font-size: 0.9rem;
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+/* === Programs === */
+.agency-card__program-list {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.agency-card__program-item {
+  background-color: #e6f2e6;
+  color: #317032;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  text-transform: capitalize;
+}

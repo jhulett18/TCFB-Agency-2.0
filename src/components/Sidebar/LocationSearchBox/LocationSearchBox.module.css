@@ -1,0 +1,47 @@
+.container {
+  background-color: #f6f6f6;
+  padding: 0.5rem 0.25rem;
+  margin-top: 1em;
+}
+
+.locationButtonWrapper {
+  margin-bottom: 0.75rem;
+}
+
+.locationButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  background-color: #ebf4f1;
+  border: 1px solid #c1dad2;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchButton {
+  background-color: #23523c;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchButtonLabel {
+  font-weight: 300;
+}

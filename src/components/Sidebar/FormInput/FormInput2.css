@@ -1,0 +1,94 @@
+.h3 {
+  background-color: #ffffff;
+}
+
+.container {
+  padding: 1rem 1.25rem;
+  background-color: #f6f6f6;
+}
+
+.formIntro {
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+}
+
+.formIntroHeading {
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #2f3e4e;
+  margin: 0;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchButton {
+  background-color: #23523c;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchButtonLabel {
+  font-weight: 500;
+}
+
+/* FOOD TYPE AND NEARBY BUTTON STYLING  */
+.form-input {
+  padding: 1rem;
+  background-color: #f7f8fa;
+}
+
+.form-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.dropdown-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dropdown-label {
+  margin-top: 0.5em;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.dropdown-button {
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  background-color: #fffff;
+  color: #23523c;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
